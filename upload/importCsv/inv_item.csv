@@ -1,0 +1,22 @@
+id,name,category,supplier_id,description,cost_price,unit_price,quantity,reorder_level,deleted
+5,"grapa 3/8\"" uso pesada",Papeleria,10,"grapa 3/8\"" uso pesada",31.54,31.54,2,1,0
+6,Boligrafo punto fino,Papeleria,10,Boligrafo punto fino,34.03,34.03,1,1,0
+7,marcador perm. negro,Papeleria,10,marcador perm. negro,161.19,161.19,2,2,0
+8,archivado tamaño oficio,Papeleria,10,archivado tamaño oficio,27.79,27.79,19,20,0
+9,archivado tamaño carta,Papeleria,10,archivado tamaño carta,16.47,16.47,19,20,0
+10,clip redondo no.1,Papeleria,10,clip redondo no.1,4.14,4.14,5,5,0
+11,clip redondo no. 2,Papeleria,10,clip redondo no. 2,5.04,5.04,5,5,0
+12,cuadernos espiral fran rayas ,Papeleria,10,cuadernos espiral fran rayas ,15.25,15.25,5,5,0
+13,folder tam. carta crema ofix,Papeleria,10,folder tam. carta crema ofix,61.19,61.19,3,3,0
+14,folder tam. oficio crema ofix,Papeleria,10,folder tam. oficio crema ofix,74.88,74.88,3,3,0
+15,liga hule nat. num.18,Papeleria,10,liga hule nat. num.18,15.32,15.32,3,3,0
+16,liga hule num. 33,Papeleria,10,liga hule num. 33,15.07,15.07,3,3,0
+17,sobre  bolsa ant 60k,Papeleria,10,sobre  bolsa ant 60k,18.71,18.71,1,1,0
+18,sobre bolsa 88k t/carta,Papeleria,10,sobre bolsa 88k t/carta,76.4,76.4,1,1,0
+19,sobre bolsa ante 88k t/legal,Papeleria,10,sobre bolsa ante 88k t/legal,150.56,150.56,1,1,0
+20,Grapa std c/500 pilot 400,Papeleria,10,Grapa std c/500 pilot 400,18.79,0,14,1,0
+21,lapiz grafito #2,Papeleria,10,lapiz grafito #2,30,0,2,2,0
+22,sacapuntas metalico cuadrado,Papeleria,10,sacapuntas metalico cuadrado,2.77,0,3,3,0
+23,lapiz grafito  n. 2,Papeleria,10,lapiz grafito  n. 2,30,0,3,1,0
+24,notas adhesivas 3x3 neon,Papeleria,10,notas adhesivas 3x3 neon,23.88,0,3,1,0
+25,papel t/cta neon colors,Papeleria,10,papel t/cta neon colors,52.7,0,2,1,0

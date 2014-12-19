@@ -1,0 +1,18 @@
+id,ep,folio_ini,folio_fin,fecha,acto,enajenante,adquirente,responsable,expediente_DBA,fecha_Registro,canc,libro
+50,2401,13927,13927,2013-11-20,Cancelacion de Hipoteca,Humberto Homero,Gonzalez Caballero,djustiniano,87E,2014-04-21 15:04:07,NO,70
+51,2402,13928,13928,2013-11-20,Cancelacion de Hipoteca ,Jorge Luis,,djustiniano,88E,2014-04-21 15:05:24,NO,70
+52,2403,13929,13933,2013-11-27,Compra - Venta,Isai GÃ³mez Rodriguez,Ma. de los Angeles Hernandez M.,djustiniano,89E,2014-04-21 17:02:34,NO,70
+53,2404,13934,13940,2013-12-11,Can.hip.cv.cred.,Rafael SÃ¡nchez Ch.,GerÃ³nimo Roberto LÃ³pez ,djustiniano,86E,2014-04-21 17:05:42,NO,70
+54,2405,13941,13942,2014-01-23,Can.hip.,Gerardo Ruben Gamboa del Alba,,djustiniano,91E,2014-04-21 17:16:23,NO,70
+55,2406,13943,13943,2014-01-29,Can.hip.,Rafael Espinosa GÃ³mez,,djustiniano,90E,2014-04-21 17:17:30,NO,70
+56,2407,13944,13945,2014-02-27,Can.hip.,Manuel de Jesus Nango,,djustiniano,129E,2014-04-21 17:21:11,NO,70
+57,2408,13946,13947,2014-03-11,Can. hip. INFONAVIT,Roger Guadalupe Mayorga Lopez,,djustiniano,137E,2014-04-21 17:24:20,NO,70
+58,2409,13948,13951,2014-03-18,Compra - venta- INVI,INVI,Olga Torres Villalobos,djustiniano,99E,2014-04-22 16:52:24,NO,70
+59,2410,13952,13955,2014-03-18,Compra - venta- INVI,INVI ,Jesus Perez Cadena y Eva Maria CoutiÃ±o,djustiniano,100E,2014-04-22 16:55:28,NO,70
+60,2411,13956,13959,2014-03-18,Compra - venta- INVI,INVI, Maria Eugenia Amezquita S. y Jose Antonio Dominguez M.,djustiniano,95E,2014-04-22 16:58:46,NO,70
+61,2412,13960,13963,2014-03-19,Compra - venta- INVI,INVI ,Teresa Jimenez Velazquez y Jorge Alfredo Espinosa G,djustiniano,94E,2014-04-22 17:11:19,NO,70
+62,2413,13964,13965,2014-03-19,Can. hip. INFONAVIT,NULL,Cein Sanchez Albores,djustiniano,142E,2014-04-22 16:50:40,NO,70
+63,2414,13966,13968,2014-03-25,Compra - venta- INVI,INVI ,Roger Matias Flores Aguilar,djustiniano,92E,2014-04-22 16:50:16,NO,70
+64,2415,13969,13971,2014-04-03,Compra - venta- INVI,INVI ,Aurora Perez Orantes,djustiniano,93E,2014-04-22 16:47:26,NO,70
+65,2416,13972,13975,2014-04-08,Compra - venta- INVI,INVI ,Albert Aguilar Espino y Yolanda Estrada Perez,djustiniano,97E,2014-04-22 16:46:48,NO,70
+66,2417,13976,13981,2014-04-14,Compra - venta- INVI,INVI ,Ulises Barrios Cifuentes,djustiniano,114E,2014-04-22 17:14:45,NO,70

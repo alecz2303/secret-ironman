@@ -1,0 +1,141 @@
+#calendar_wrap{
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-top:-20px;
+}
+.tittle_bar{
+	width: 100%;
+	height: 30px;
+	padding:5px;
+}
+.previous_month{
+	float: left;
+	width: 205.33px;
+	height: 30px;
+	text-align: left;
+}
+.show_month{
+	float: left;
+	width: 205.33px;
+	height: 30px;
+	text-align: center;
+	color: #111E26;
+	font-family:'Tangerine', cursive;
+	font-size:28px;
+}
+.next_month{
+	float: left;
+	width: 205.33px;
+	height: 30px;
+	text-align: right;
+}
+.week_days{
+	width: 100%;
+}
+.days_of_week{
+	float: left;
+	width: 82px;
+	text-align: center;
+	color: #111E26;
+	margin-right:4px;
+	font-family: "Tulpen One";
+	font-size:30px;
+	text-shadow: 4px 2px 4px #00163F;
+}
+.cal_day{
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	width: 82px;
+	height: 62px;
+	background-color: #F9FDFA;
+	border:solid 1px;
+	box-shadow:5px 5px 5px 1px #888888;
+    border-radius: 5px;
+}
+.day_heading {
+	padding-left:5px;
+	/*position: relative;*/
+	float: left;
+	width: 40px;
+	height: 16px;
+	/*padding: 0px;*/
+	color: #111E26;
+	font-family: "Tulpen One", Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	text-shadow: 4px 4px 2px #00163F;
+}
+.openings {
+	width: 100%;
+	clear: left;
+	text-align: center;
+}
+.non_cal_day {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	width: 82px;
+	height: 62px;
+	background-color: #A5A7AF;
+	border:solid 1px;
+	box-shadow:5px 5px 5px 1px #888888;
+    border-radius: 5px;
+}
+.clear {
+	clear: both;
+}
+<!-- Overlay -->
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: #000;
+	line-height: 135%;
+	margin-left:50px;
+	font-size:12px;
+	background-color: #F9FDFA;
+}
+#overlay {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 2000;
+	background: #000;
+	opacity: .9;
+}
+#events {
+	display: none;
+	width: 500px;
+	border: 4px solid #9c9;
+	padding: 15px;
+	z-index: 3000;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	height: 400px;
+	overflow: scroll;
+}
+
+#eventControl {
+	display: none;
+	width: 100%;
+	height: 30px;
+	z-index: 3000;
+}
+#eventBody {
+	display: none;
+	width: 100%;
+	z-index: 3000;
+}
+.myBtn {
+	width: auto;
+	color: #111E26;
+}

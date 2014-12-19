@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root><FtpSiteDeployer basedir="/var/www/newpekah/" createbkp="yes" directorycloaking="CVS" host="192.168.1.203" pass="ericko2303" port="2121" project-type="php" user="admin"/></root>

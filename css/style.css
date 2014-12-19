@@ -1,0 +1,479 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2014, 10:15:48 AM
+    Author     : soporte
+*/
+
+//.footer{color:#eeeeee;}
+#page{
+    padding-bottom: 10em;
+}
+.footer-credits{
+    font-size:100%;
+    clear:both;
+    text-align:center;
+    position:relative;
+    text-transform:uppercase;
+    background:#111111;
+}
+.footer-credits *{
+    color:#ffffff !important;
+    //color:rgba(17, 30, 38, 0.7);
+}
+.footer-credits ul{
+    list-style:none;
+    padding:10px 0;
+    margin:0;
+    position:relative;
+    left:-10px;
+}
+.footer-credits a,.footer-credits li{text-decoration:none;margin:0;}
+.footer-credits li{
+    display:inline;
+    padding:0 12px 0 8px;
+    border-right:1px solid #ffffff;
+    border-right:1px solid rgba(255, 255, 255, 0.5);
+}
+.footer-credits li:first-child{
+    padding-left:0;
+}
+.bg-ft{
+    //background-image:url('../img/bgfooter.png');
+    color: #ffffff;
+    //background-color: rgba(0, 0, 0, 0.7);
+}
+.clearfix:after{clear:both;}
+.pd4{padding-top:60px;padding-bottom:60px;overflow:hidden;}
+.container{
+  margin-right:auto;
+  margin-left:auto;*zoom:1;
+}
+.container:before,.container:after{
+  display:table;content:"";
+  line-height:0;
+}
+.container:after{clear:both;}
+.container-fluid{
+  padding-right:20px;
+  padding-left:20px;
+  *zoom:1;
+}
+.container-fluid:before,.container-fluid:after{display:table;content:"";line-height:0;}
+.container-fluid:after{clear:both;}
+.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px;}
+.span3{width:220px;}
+.social{
+    font-weight: normal;
+    font-style: normal;
+    font-size:16px;
+    margin:5px 0px;
+}
+.social a,.social a:visited,.social a:hover{text-decoration:none;}
+.social i{
+    box-shadow:inset 0px 0px 1px #fff;
+    height:25px;
+    width:25px;
+    line-height:25px;
+    margin:0px 5px 0px 0px;
+    border-radius:3px;
+    -webkit-transition:background 1s ease;
+    -moz-transition:background 1s ease;
+    -o-transition:background 1s ease;
+    transition:background 1s ease;
+    text-align:center;
+}
+h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:"Julius Sans One","Varela Round",Arial,"Times New Roman",Times,serif !important;font-weight:300;line-height:20px;color:#f16729;text-rendering:optimizelegibility;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{font-weight:normal;line-height:1;color:#999999;}
+h1,h2,h3{line-height:40px;}
+h1{font-size:38.5px;}
+h2{font-size:31.5px;}
+h3{font-size:24.5px;}
+h4{font-size:17.5px;}
+h5{font-size:14px;}
+h6{font-size:11.9px;}
+.icon-facebook-sign:before{content:"\f082";}
+div #content{
+    border: solid 1px #7A0C0C;
+    background-color: #FFFFFF !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: -10px 10px 5px rgba(0,0,0,.2);
+}
+body{
+    color: #111E26;
+    background-color: #E5E4E2 !important;
+    //background-image:url('../img/bgfooter.png');
+}
+div #sidebar{
+    font-family:"Julius Sans One","Varela Round",Arial,"Times New Roman",Times,serif !important;
+    border: solid 1px #7A0C0C;
+    background-color: #FFFFFF !important;
+    border-radius: 5px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    box-shadow: -10px 10px 5px rgba(0,0,0,.2);
+}
+.breadcrumb{
+    border: solid 1px #7A0C0C;  
+    background-color: #FFFFFF !important;
+    box-shadow: -10px 10px 5px rgba(0,0,0,.2);
+    font-family:"Julius Sans One","Varela Round",Arial,"Times New Roman",Times,serif !important;
+}
+nav{
+  font-family:"Julius Sans One","Varela Round",Arial,"Times New Roman",Times,serif !important;
+  font-size: 12px;
+  border-bottom: solid 1px !important;
+  border-radius: 5px !important;
+}
+.navbar-default{
+  background-image: linear-gradient(to bottom, #fff 0%, rgba(231,231,231,.3) 100%) !important;
+  background-color: rgba(231,231,231,.3) !important;
+}
+nav a{
+  color: #000000 !important;
+}
+div .alert{
+  font-family:"Julius Sans One","Varela Round",Arial,"Times New Roman",Times,serif !important;
+}
+small,
+.small {
+  font-size: 85%;
+}
+cite {
+  font-style: normal;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-muted {
+  color: #b4bcc2;
+}
+.text-primary {
+  color: #2c3e50;
+}
+a.text-primary:hover {
+  color: #1a242f;
+}
+.text-success {
+  color: #ffffff;
+}
+a.text-success:hover {
+  color: #e6e6e6;
+}
+.text-info {
+  color: #ffffff;
+}
+a.text-info:hover {
+  color: #e6e6e6;
+}
+.text-warning {
+  color: #ffffff;
+}
+a.text-warning:hover {
+  color: #e6e6e6;
+}
+.text-danger {
+  color: #ffffff;
+}
+a.text-danger:hover {
+  color: #e6e6e6;
+}
+.hero-unit {
+  /*
+  * aqui se configura la imagen de la pantalla principal  
+  */
+  //background-image: url('../img/HU1.png');
+  background-size: cover;
+  height:250px;
+  opacity: .6;
+}
+.errorPage.hero-unit{
+    font-family: "Julius Sans One";
+    background-image: url('../img/404.jpg');
+    background-size: cover;
+    height: 800px;
+}
+.errorPage{
+    color: Red !important;
+}
+.select2-container{
+    margin-left: 0px !important;
+}
+#dt{
+    font-family: 'Julius Sans One';
+    color: #7A0C0C;
+}
+#tm{
+    font-family: 'Julius Sans One';
+    font-size: x-large;
+    font-weight: bold;
+    color: #7A0C0C;
+}
+.about{
+    font-family: 'Patrick Hand SC';
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #111E26;
+}
+.about h1{
+    font-size: 60px;
+    color: #00163F;
+    text-shadow: 2px 2px 8px #111E26;
+}
+.about p{
+    margin-top: 50px;
+}
+.about .sign{
+    font-family: 'Sue Ellen Francisco';
+    font-size: 60px;
+}
+
+#pageWrapper {
+width:950px;
+margin:0pt auto;
+position:relative;
+text-align:left;
+}
+
+#leftColumn, #middleColumn {
+float:left;
+width:33.3%;
+}
+
+#rightColumn {
+float:right;
+width:33.3%;
+}
+
+.table td, th{
+    font-size: 10px !important;
+}
+
+tr.pink
+{
+        background: #FFCCCC;
+}
+tr.green
+{
+        background: #6fae7f;
+}
+tr.yellow
+{
+        background: #FFFF99;
+}
+tr.white
+{
+        background: #FFFFFF;
+}
+tr.red
+{
+        background: #993333;
+        color: #FFFFFF
+}
+#CalcularfcForm_rfc{
+    visibility: hidden;
+}
+[for="CalcularfcForm_rfc"] { display: none;}
+[for="CalculacurpForm_rfc"] { display: none;}
+[for="CalculacurpForm_curp"] { display: none;}
+[for="InvFullNameCustomer_item_id"] { display: none;}
+[for="InvFullNameCustomer_description"] { display: none;}
+[for="InvFullNameCustomer_qty_purchased"] { display: none;}
+[for="InvFullNameCustomer_item_unit_price"] { display: none;}
+[for="InvFullNameCustomer_qty_exist"] { display: none;}
+
+[for="InvReceivings_item_id"] { display: none;}
+[for="InvReceivings_description"] { display: none;}
+[for="InvReceivings_qty_purchased"] { display: none;}
+[for="InvReceivings_item_unit_price"] { display: none;}
+
+#CalculacurpForm_rfc, #CalculacurpForm_curp{
+    display: none;
+}
+
+#InvReceivings_item_id, #InvReceivings_item_id_em_,#InvReceivings_description, #InvReceivings_description_em_,#InvReceivings_qty_purchased, #InvReceivings_qty_purchased_em_,#InvReceivings_item_unit_price, #InvReceivings_item_unit_price_em_{
+    display: none;
+}
+
+#InvFullNameCustomer_item_id, #InvFullNameCustomer_item_id_em_, #InvFullNameCustomer_description, #InvFullNameCustomer_description_em_, #InvFullNameCustomer_qty_purchased, #InvFullNameCustomer_qty_purchased_em_,#InvFullNameCustomer_item_unit_price, #InvFullNameCustomer_item_unit_price_em_,#InvFullNameCustomer_qty_exist, #InvFullNameCustomer_qty_exist_em_{
+    display: none;
+}
+
+/* navigation pills */
+.pill {
+	background: #00a6fc;
+	display: inline-block;
+	text-align: center;
+	padding: 9px 5px 11px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	font-family: verdana, tahoma, arial, sans-serif;
+	position: relative;
+	cursor: pointer;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 10px;
+	padding: 5px 12px 6px;
+	width: auto;
+}
+
+.pill.full-width {
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center;
+}
+
+.pill.pull-align {
+	text-align: left;
+	text-indent: 12px;
+}
+
+.blue.pill {
+	border: 1px solid #0593dc;
+	background-color: #0192dd;
+}
+
+.red.pill {
+	border: 1px solid #b90b0b;
+	background-color: #d01217;
+}
+
+.white.pill {
+	background-color: #f0f0f0;
+	color: #555555;
+	border: 1px solid #dddddd;
+	text-shadow: none !important;
+}
+
+.pill:hover {
+	color: #fff;
+}
+
+.blue.pill:hover {
+	background-color: #00a6fc;
+}
+
+.red.pill:hover {
+	background-color: #e91c21;
+}
+
+.white.pill:hover {
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+.inputItem, .inputItem_unit_prices, .inputItem_cost_prices, .inputTotal, .inputSerialNumber{
+    width: 90px;
+}
+
+.inputQty_purchased, .inputQty_exist, .inputDiscount_percent{
+    width: 90px;
+}
+
+tr.border_top td {
+  border-top:1pt solid black;
+}
+
+#InvFullNameCustomer_grand, #InvReceivings_grand{
+    float: right;
+    height: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    border: solid 1px #6FAE7F;
+    background-color: rgba(111,174,127,0.5);
+}
+.inputTotal{    
+    font-weight: bold !important;
+    border: solid 1px #15B5BB !important;
+    background-color: rgba(21,181,187,0.5) !important;
+    font-weight: bold;
+}
+.callout {
+  color: #0a5175;
+  display: table;
+  height: 700px;
+  width: 100%;
+  background: url(../img/bgn39.jpg) no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+form div.row{
+  margin-left: 5px;
+}
+li{
+    list-style: none;
+}
+#sidebar ul{
+  padding-left: 0px;
+  font-size: 10px;
+}
+a{
+  color: #7A0C0C !important;
+}
+#mitabla label{
+  font-size: 10px;
+}
+div.cuarta-etapa{
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(111,174,127,.5);
+  border-radius: 3px;
+  border: solid 1px;
+}
+div.quinta-etapa{
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(0,166,252,.5);
+  border-radius: 3px;
+  border: solid 1px;
+}
+div.sexta-etapa{
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(255,255,153,.5);
+  border-radius: 3px;
+  border: solid 1px;
+}
+div.septima-etapa{
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(255,204,204,.5);
+  border-radius: 3px;
+  border: solid 1px;
+}
+div.general{
+  margin: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px;
+}
+div.general p{
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  padding: 8px;
+}
+div.docs{
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  margin: 0 10px;
+}
